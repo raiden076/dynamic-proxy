@@ -6,7 +6,7 @@ const getProxySite = (host, rootDomain) => {
   return host.split(`.${rootDomain}`)[0];
 }
 
-const currentDomain = "localhost:8787";
+const currentDomain = "proxy.arkaprav0.in";
 
 async function handleRequest(request) {
   const url = new URL(request.url);
